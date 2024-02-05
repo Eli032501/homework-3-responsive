@@ -51,7 +51,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
+.primary-link:hover {
+  color: rgb(203, 193, 255);
+}
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -68,10 +70,13 @@ p {
 }
 
 .about-paragraphs {
-  margin: 30px 0;
+  margin: 30px auto;
+  padding: 0 40px;
+  max-width: 1000px;
 }
 
 .about-paragraphs p {
+  display: inline;
   margin: 10px;
 }
 
@@ -86,6 +91,10 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.btn-marg {
+  margin-top: 40px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
@@ -106,6 +115,12 @@ p {
   }
   .btn-display {
     display: block;
-    margin: 0 20px;
+    margin: 14px 20px;
+  }
+  .btn-marg {
+    margin-top: 0px;
+  }
+  .div-prj2 {
+    flex-direction: column-reverse;
   }
 }
