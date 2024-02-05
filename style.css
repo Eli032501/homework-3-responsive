@@ -95,20 +95,6 @@ p {
   margin-top: 40px;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 50px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 30px;
-    line-height: 1.6;
-  }
-  a.email-link {
-    font-size: 18px;
-    margin: 0 20px;
-  }
-}
 @media (max-width: 768px) {
   h1 {
     font-size: 75px;
@@ -128,5 +114,20 @@ p {
   }
   .div-prj2 {
     flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 1.6;
+  }
+  a.email-link {
+    font-size: 18px;
+    margin: 0 20px;
   }
 }
