@@ -110,6 +110,12 @@ p {
   }
 }
 @media (max-width: 768px) {
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 40px;
+  }
   .gr-projects {
     text-align: center;
   }
